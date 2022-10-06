@@ -1,8 +1,8 @@
 # General
 client.focused          #9999FF #9999FF #1F2533 #9999FF  #9999FF
 client.focused_inactive #3D4B66 #3D4B66 #CCDDFF #3D4B66  #3D4B66
-client.unfocused        #1F2533 #1F2533 #3D4B66 #1F2533  #1F2533
-client.urgent           #3D4B66 #99FFDD #1F2533 #99FFDD  #99FFDD
+client.unfocused        #1F2533 #1F2533 #99FFDD #1F2533  #1F2533
+client.urgent           #3D4B66 #FF6666 #1F2533 #FF6666  #FF6666
 client.placeholder      #1F2533 #1F2533 #CCDDFF #1F2533  #1F2533
 
 client.background       #CCDDFF
@@ -16,8 +16,8 @@ bar {
 
     focused_workspace  #3D4B66 #3D4B66 #CCDDFF
     active_workspace   #1F2533 #3D4B66 #CCDDFF
-    inactive_workspace #1F2533 #1F2533 #3D4B66
-    urgent_workspace   #99FFDD #99FFDD #1F2533
+    inactive_workspace #1F2533 #1F2533 #99FFDD
+    urgent_workspace   #FF6666 #FF6666 #1F2533
     binding_mode       #99FFDD #99FFDD #1F2533
   }
 }
