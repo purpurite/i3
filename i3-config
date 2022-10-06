@@ -1,0 +1,26 @@
+# General
+client.focused          #9999FF #9999FF #1F2533 #9999FF  #9999FF
+client.focused_inactive #3D4B66 #3D4B66 #CCDDFF #3D4B66  #3D4B66
+client.unfocused        #1F2533 #1F2533 #3D4B66 #1F2533  #1F2533
+client.urgent           #3D4B66 #99FFDD #1F2533 #99FFDD  #99FFDD
+client.placeholder      #1F2533 #1F2533 #CCDDFF #1F2533  #1F2533
+
+client.background       #CCDDFF
+
+# Bar-Specific
+bar {
+  colors {
+    background #1F2533
+    statusline #CCDDFF
+    separator  #3D4B66
+
+    focused_workspace  #3D4B66 #3D4B66 #CCDDFF
+    active_workspace   #1F2533 #3D4B66 #CCDDFF
+    inactive_workspace #1F2533 #1F2533 #3D4B66
+    urgent_workspace   #99FFDD #99FFDD #1F2533
+    binding_mode       #99FFDD #99FFDD #1F2533
+  }
+}
+
+# dmenu-Specific
+bindsym $mod+d exec "dmenu_run -nf '#CCDDFF' -nb '#1F2533' -sb '#9999FF' -sf '#CCDDFF' -fn 'monospace-10' -p 'dmenu%'"
